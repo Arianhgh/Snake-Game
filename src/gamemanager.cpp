@@ -77,6 +77,12 @@ void GameManager::handleCollisions(){
     if(snake.body[0].getGlobalBounds().intersects(food.food.getGlobalBounds())){
         snake.increase_length(direction);
         food.generate_food();
+        //check if the food is on the snake
+        for(int i = 0; i < snake.body.size(); i++){
+            if(snake.body[i].getGlobalBounds().intersects(food.food.getGlobalBounds())){
+                food.generate_food();
+            }
+        }
         score++;
     }
     //check if the snake has collided with itself
