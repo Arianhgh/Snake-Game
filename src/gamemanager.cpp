@@ -8,9 +8,17 @@ void GameManager::init(){
     gameOver = false;
     gameStarted = true;
     score = 0;
-    highscore = 0;  
+    font.loadFromFile("fonts/arial.ttf");
+    scoreText.setFont(font);
+    scoreText.setCharacterSize(30);
+    scoreText.setPosition(10, 10);
+    scoreText.setString("Score: 0");
+    scoreText.setFillColor(sf::Color::White);
+    highscore = 0;
+
 }
 void GameManager::run(){
+    init();
     //run the game
     window->display();
     while(window->isOpen()){
@@ -51,7 +59,10 @@ void GameManager::handleEvents(){
                 }
             }
             if(event.key.code == sf::Keyboard::Space){
-                if(!gameStarted){
+                if(gameStarted){
+                    gameStarted = false;
+                }
+                else{
                     gameStarted = true;
                 }
             }
@@ -66,6 +77,7 @@ void GameManager::update(){
         snake.move(direction);
         handleCollisions();
         if(gameOver){
+            //cout << "Game Over" << endl;
             exit(0);
         }
     }
@@ -76,6 +88,8 @@ void GameManager::handleCollisions(){
     //handle the collisions
     if(snake.body[0].getGlobalBounds().intersects(food.food.getGlobalBounds())){
         snake.increase_length(direction);
+        score++;
+        scoreText.setString("Score: " + std::to_string(score));
         food.generate_food();
         //check if the food is on the snake
         for(int i = 0; i < snake.body.size(); i++){
@@ -105,5 +119,6 @@ void GameManager::draw(){
     for(int i = 0; i < snake.body.size(); i++){
         window->draw(snake.body[i]);
     }
+    window->draw(scoreText);
     window->display();
 }

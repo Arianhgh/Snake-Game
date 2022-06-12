@@ -11,6 +11,8 @@ class GameManager{
         bool gameOver;
         bool gameStarted;
         sf::RenderWindow* window;
+        sf::Text scoreText;
+        sf::Font font;
         GameManager(sf::RenderWindow* _window);
         void init();
         void run();
