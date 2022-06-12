@@ -1,0 +1,3 @@
+/home/arian/vscodeprojects/Pp/CMakeFiles/rebuild_cache.dir
+/home/arian/vscodeprojects/Pp/CMakeFiles/edit_cache.dir
+/home/arian/vscodeprojects/Pp/CMakeFiles/snake.dir

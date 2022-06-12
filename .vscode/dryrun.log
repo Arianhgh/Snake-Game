@@ -1,0 +1,28 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/arian/Snake-Game'
+/usr/bin/cmake -S/home/arian/vscodeprojects/Pp -B/home/arian/vscodeprojects/Pp --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/arian/vscodeprojects/Pp/CMakeFiles /home/arian/vscodeprojects/Pp/CMakeFiles/progress.marks
+make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/arian/Snake-Game'
+make -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/depend
+make[2]: Entering directory '/home/arian/Snake-Game'
+cd /home/arian/vscodeprojects/Pp && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/arian/vscodeprojects/Pp /home/arian/vscodeprojects/Pp /home/arian/vscodeprojects/Pp /home/arian/vscodeprojects/Pp /home/arian/vscodeprojects/Pp/CMakeFiles/snake.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/arian/Snake-Game'
+make -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/build
+make[2]: Entering directory '/home/arian/Snake-Game'
+/usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/arian/vscodeprojects/Pp/CMakeFiles --progress-num=1 "Building CXX object CMakeFiles/snake.dir/src/main.cpp.o"
+/usr/bin/c++   -I/home/arian/vscodeprojects/Pp/headers  -std=gnu++11 -o CMakeFiles/snake.dir/src/main.cpp.o -c /home/arian/vscodeprojects/Pp/src/main.cpp
+/usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/arian/vscodeprojects/Pp/CMakeFiles --progress-num=2 "Building CXX object CMakeFiles/snake.dir/src/snake.cpp.o"
+/usr/bin/c++   -I/home/arian/vscodeprojects/Pp/headers  -std=gnu++11 -o CMakeFiles/snake.dir/src/snake.cpp.o -c /home/arian/vscodeprojects/Pp/src/snake.cpp
+/usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/arian/vscodeprojects/Pp/CMakeFiles --progress-num=3 "Building CXX object CMakeFiles/snake.dir/src/food.cpp.o"
+/usr/bin/c++   -I/home/arian/vscodeprojects/Pp/headers  -std=gnu++11 -o CMakeFiles/snake.dir/src/food.cpp.o -c /home/arian/vscodeprojects/Pp/src/food.cpp
+/usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/arian/vscodeprojects/Pp/CMakeFiles --progress-num=4 "Building CXX object CMakeFiles/snake.dir/src/gamemanager.cpp.o"
+/usr/bin/c++   -I/home/arian/vscodeprojects/Pp/headers  -std=gnu++11 -o CMakeFiles/snake.dir/src/gamemanager.cpp.o -c /home/arian/vscodeprojects/Pp/src/gamemanager.cpp
+/usr/bin/cmake -E cmake_echo_color --switch= --green --bold --progress-dir=/home/arian/vscodeprojects/Pp/CMakeFiles --progress-num=5 "Linking CXX executable snake"
+/usr/bin/cmake -E cmake_link_script CMakeFiles/snake.dir/link.txt --verbose=
+make[2]: Leaving directory '/home/arian/Snake-Game'
+/usr/bin/cmake -E cmake_echo_color --switch= --progress-dir=/home/arian/vscodeprojects/Pp/CMakeFiles --progress-num=1,2,3,4,5 "Built target snake"
+make[1]: Leaving directory '/home/arian/Snake-Game'
+/usr/bin/cmake -E cmake_progress_start /home/arian/vscodeprojects/Pp/CMakeFiles 0
+make: Leaving directory '/home/arian/Snake-Game'
+ 

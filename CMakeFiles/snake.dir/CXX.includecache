@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/arian/vscodeprojects/Pp/src/food.cpp
+food.h
+/home/arian/vscodeprojects/Pp/src/food.h
+
+/home/arian/vscodeprojects/Pp/src/main.cpp
+gamemanager.h
+/home/arian/vscodeprojects/Pp/src/gamemanager.h
+
+headers/food.h
+iostream
+-
+string
+-
+vector
+-
+map
+-
+SFML/Graphics.hpp
+-
+
+headers/gamemanager.h
+snake.h
+headers/snake.h
+food.h
+headers/food.h
+
+headers/snake.h
+iostream
+-
+string
+-
+vector
+-
+map
+-
+SFML/Graphics.hpp
+-
+
