@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jun 13 01:02:04 2022
+# Make data base, printed on Mon Jun 13 10:10:32 2022
 
 # Variables
 
@@ -51,7 +51,7 @@ SNAP_DATA = /var/snap/code/98
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:46558
+JOURNAL_STREAM = 8:47513
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
@@ -79,7 +79,7 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 _ = /snap/code/98/usr/share/code/code
 # environment
-MANAGERPID = 1700
+MANAGERPID = 1683
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -95,7 +95,7 @@ PATH = /home/arian/.local/bin:/home/arian/anaconda3/bin:/home/arian/anaconda3/co
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/ArianLN:@/tmp/.ICE-unix/1923,unix/ArianLN:/tmp/.ICE-unix/1923
+SESSION_MANAGER = local/ArianLN:@/tmp/.ICE-unix/1907,unix/ArianLN:/tmp/.ICE-unix/1907
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -115,7 +115,7 @@ DISABLE_WAYLAND = 1
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 872310b322e943dbbb25910c2802d563
+INVOCATION_ID = b7ebe732c1c640d1a89e45ca53f20685
 # environment
 GDK_PIXBUF_MODULEDIR = /snap/code/98/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
@@ -127,7 +127,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 3850
+GIO_LAUNCHED_DESKTOP_FILE_PID = 4723
 # automatic
 %F = $(notdir $%)
 # environment
@@ -143,7 +143,7 @@ PWD = /home/arian/Snake-Game
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1886
+SSH_AGENT_PID = 1863
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -203,7 +203,7 @@ SHLVL = 0
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-a0236608-fb99-47ed-b792-3ac15023a12f.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-53c6a07b-da71-4f24-a1ab-3c1db9cf32a9.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -287,14 +287,14 @@ WINDOWPATH = 2
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # default
+ 
 .RECIPEPREFIX := 
 # environment
 LC_ADDRESS = az_IR
 # environment
 LANG = C
- 
 # environment
-VSCODE_PID = 3899
+VSCODE_PID = 4769
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
@@ -306,9 +306,9 @@ _CE_CONDA =
 
 # Directories
 
-# . (device 2056, inode 2355780): 11 files, no impossibilities.
+# . (device 2056, inode 2355780): 13 files, no impossibilities.
 
-# 11 files, no impossibilities in 1 directories.
+# 13 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -566,6 +566,7 @@ depend:
 
 # Not a target:
 .DEFAULT:
+ 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -582,7 +583,6 @@ src/gamemanager.cpp.i:
 #  File does not exist.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 168):
- 
 	$(MAKE) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/gamemanager.cpp.i
 
 snake: cmake_check_build_system
@@ -698,12 +698,12 @@ rebuild_cache:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 59 / storage = 782 B / avg = 13 B
-# current buf: size = 8162 B / used = 782 B / count = 59 / avg = 13 B
+# strcache buffers: 1 (0) / strings = 61 / storage = 793 B / avg = 13 B
+# current buf: size = 8162 B / used = 793 B / count = 61 / avg = 13 B
 
-# strcache performance: lookups = 250 / hit rate = 76%
+# strcache performance: lookups = 252 / hit rate = 75%
 # hash-table stats:
-# Load=59/8192=1%, Rehash=0, Collisions=2/250=1%
-# Finished Make data base on Mon Jun 13 01:02:04 2022
+# Load=61/8192=1%, Rehash=0, Collisions=2/252=1%
+# Finished Make data base on Mon Jun 13 10:10:32 2022
 
  
